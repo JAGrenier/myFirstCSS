@@ -1,0 +1,57 @@
+h1{
+    display: flex;
+    color: white;
+    background: black;
+}
+header > ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: blue;
+    border-width: 6px;
+    padding: 2rem;
+}
+
+button{
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 4px;
+    border-style: hidden;
+    margin: 6px;
+    
+}
+
+main {
+    border-style: solid;
+    border-color: red;
+    border-width: 6px;
+    padding: 2rem;
+}
+
+main > h2{
+    color: yellow;
+    background: black;
+}
+
+div {
+    color: blue; 
+    background: cyan;
+}
+
+footer {
+    border-style: solid;
+    border-color: green;
+    border-width: 6px;
+    padding: 2rem;
+    font-weight: bold; 
+    
+}
